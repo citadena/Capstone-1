@@ -1,41 +1,214 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 body{
 	font-family: 'Lato', sans-serif;
 }
 
-h1, h2 {
-	font-family: 'Arvo', serif;
-}
-
-h2{
-	color: #d1c8ff;
-}
-
-p{
-	font-size: 16px;
+.nav_item, .nav-item{
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .btn{
-	background-color: #ac31f2;
+	background-color: #ea110b;
 	border: none;
 	border-radius: 4px;
 	color: white;
-	padding: 12px;
+	padding: 10px;
 	text-align: center;
 	font-size: 16px;
-	margin: 3px;
+}
+
+.nav-link{
+	color: white !important;
+}
+
+.nav_item a:hover{
+	color: #4ad7d1 !important;
+}
+
+.btn:hover {
+  background-color: #4ad7d1;
+  color: black;
+}
+
+h1{
+	font-family: 'Arvo', serif;
+	color: #fe4a49;
+}
+
+h2{
+	color: #dfdfdf;
+}
+
+h3{
+	color: #4ad7d1;
+}
+
+
+
+p{
+	font-size: 16px;
+	color: #dfdfdf;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: #4ad7d1;
 }
 
 #home{
-	background-color: #000000;
-	height: 100vh;
+	background-color: #212529;
+	height: auto;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
 }
 
-section > div{
-	height: 100vh;
+#blurb{
+	padding-top: 5vh;
+}
+
+#blurb .icon{
+	height: 125px;
+}
+
+.navigation-links{
+	padding: .5em;
+	color: white;
+	font-size: 18px;
+}
+
+#about-me{
+	background-color: black;
+	height: auto;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+
+.lead{
+	padding-top: 1em;
+	color: black;
+}
+
+#profile{
+	background-color: #4ad7d1;
+	height: auto;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+
+.icon{
+	height: 50px;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+section{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#skills-section li{
+	color: white;
+}
+
+#skills-section h3{
+	font-size: 1.3rem;
+}
+
+#skills-section img {
+  float: left;
+}
+
+#skills-section h2 {
+  position: relative;
+  top: .5em;
+  left: .5em;
+}
+
+#skills-section h3{
+  position: relative;
+  margin-top: 2em;
+}
+
+#profile img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#profile .btn:hover{
+  background-color: black;
+  color: white;
+}
+
+#projects{
+	background-color: #212529;
+	height: auto;
+	padding-top: 5vh;
+	padding-bottom: 10vh;
+}
+
+#contact-form{
+	background-color: black;
+	height: auto;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+
+#contact-form h1{
+	color: #dfdfdf;
+}
+
+form{
+	border-radius: 20px;
+}
+
+#map h1{
+	color: black;
+}
+
+#map{
+	background-color: #fe4a49;
+	height: auto;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.modal-body p{
+	color: black;
 }

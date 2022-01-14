@@ -16,92 +16,223 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lato:ital@0;1&display=swap" rel="stylesheet">
 
-	<title>First Capstone Project: Portfolio Website</title>
+	<title>Camille Ivy Tadena | Portfolio Website</title>
 </head>
 <body>
 	<!-- Start of Navbar -->
-	<section>
-		<nav class="navbar navbar-dark bg-transparent fixed-top navbar-expand-lg px-4">
-		  <div class="container-fluid">
-		    <a class="navbar-brand" href="#">
-		    	<img src="./images/dev-writer.png" width="110">
-		    </a>
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse" id="navbarNav">
-		      <ul class="navbar-nav ms-auto mx-3">
-		        <li class="nav-item px-3">
-		          <a class="nav-link active" aria-current="page" href="#home">Home</a>
-		        </li>
-		        <li class="nav-item px-3">
-		          <a class="nav-link" href="#about">About</a>
-		        </li>
-		        <li class="nav-item px-3">
-		          <a class="nav-link" href="#projects">Projects</a>
-		        </li>
-		      </ul>
-		     	<a href="#contact" class="btn">Contact</a>
-		    </div>
-		  </div>
-		</nav>
-	</section>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">
+				<img src="./images/dev-writer.png" alt="website-icon" width="80">
+	    </a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav ms-auto">
+	        <li class="nav_item">
+	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        </li>
+	        <li class="nav_item">
+	          <a class="nav-link" href="#about">About</a>
+	        </li>
+	        <li class="nav_item">
+	          <a class="nav-link" href="#projects">Projects</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="btn" href="#contact">Contact</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
 	<!-- End of Navbar -->
 
 	<!-- Start of Home -->
-	<section id="home">
-		<div class="d-flex flex-column justify-content-center align-items-center text-white text-center p-5">
-			<div class="container">
-			<div class="mt-5 pt-5">
-				<h2 class="display-1">Camille Ivy Tadena</h2>
-			</div>
-			<div class="mb-3">
-				<h3 class="display-5">Web Developer . Writer</p>
-			</div>
-			<div class="pt-5">
-				<h3><em>
-					Where left brain meets right brain.</em>
-				</h3>
-				<p>
-					Tap into my technical skills and creativity in content creation to strengthen your online presence. I make brands look and sound incredible online through responsive websites that tell stories and convert leads into sales.
-				</p>
-			</div>
+	<div class="container-fluid text-center" id="home">
+		<div class="row">
+			<div class="col col-12 col-md-8 col-lg-8 mx-auto">
+				<h1 class="display-1" >Camille Ivy Tadena</h1>
+				<h2 class="display-5">Web Developer . Writer</h2>
 			</div>
 		</div>
-	</section>
+		<div class="row" id="blurb">
+			<div class="col col-12 col-md-6 col-lg-6 mx-auto">
+				<img src="./images/brain-icon.png" class="icon">
+				<h3><em>When left brain meets right brain</em></h3>
+				<p>I make brands look incredible online through responsive websites that tell stories and convert leads into sales. Partner with me and let's give your business a boost. Tap into my technical skills and creativity in content creation to strengthen your online presence! </p>
+				<a href="#about" class="navigation-links">About Me</a>
+				<a href="#projects" class="navigation-links">Projects</a>
+				<a href="#contact" class="navigation-links">Let's Talk</a>
+			</div>
+		</div>
+	</div>
 	<!-- End of Home -->
 
 	<!-- Start of About -->
-	<section id="about" class="py-5">
-		<div class="container-fluid">
-
-	</section>
+	<div class="container-fluid" id="about">
+		<div class="row">
+			<div class="col-12 col-md-7 col-lg-7 order-2 order-md-1 order-lg-1" id="about-me">
+				<h1 class="display-1">Hello.</h1>
+				<p>I'm Camille Ivy Tadena-- a budding full-stack web developer and a writer by passion and profession.</p>
+				<p>As a B.A. Psychology graduate from the University of the Philippines, I am drawn towards integrating the disciplines of psychology and marketing to create meaningful digital experiences. This passion led me to start my career in content marketing.</p>
+				<p>However, with my obsession for self-improvement and hunger for challenge, I decided to raise the bar higher and pursue my interest in web development. Building things for the web puts my natural problem-solving skills to the test and provides another way for me to channel my creativity.</p>
+				<p>With 8+ years of experience in content marketing up my sleeve , I know what it takes to build a website that sells. So let me help translate your unique ideas into an engaging and responsive website that doesn't only look good, but also resonates with your audience.</p>
+				<section id="skills-section">
+					<img src="./images/skill-icon.png" class="icon">
+					<h2>Skills</h2>
+					<h3>Front-End</h3>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Bootstrap</li>
+							<li>Responsive Web Design</li>
+						</ul>
+				</section>
+			</div>
+			<div class="col-12 col-md-5 col-lg-5 order-1 order-md-2 order-lg-2 text-center" id="profile">
+				<img src="./images/camilletadena-headshot.jpg" class="rounded-circle">
+				<p class="lead">Have a project in mind? Let's have a chat and start turning it into reality.</p>
+				<a href="#contact" class="btn ms-auto">Get in Touch</a>
+			</div>
+		</div>
+	</div>
 	<!-- End of About -->
 
 	<!-- Start of Projects -->
-	<section id="projects">
-		<div class="container-fluid">
-			
-		</div>		
-	</section>
+	<div class="container-fluid text-center" id="projects">
+		<div class="row mt-5">
+			<div class="col col-12 col-md-6 col-lg-6 mx-auto">
+				<h1 class="display-3" >Wanna see something cool?</h1>
+				<h2>Check out my latest web development projects.</h2>
+			</div>
+		</div>
+		<div class="row mb-5 px-5">
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+			  <div class="col">
+			    <div class="card bg-transparent border-info">
+			      <img src="./images/project-1.png" class="card-img-top img-fluid" alt="...">
+			      <div class="card-body">
+			        <h3 class="card-title">Portfolio Website</h3>
+			        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      </div>
+			      <div class="card-footer border-info">
+			        <a href="#" class="navigation-links">See Project</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card bg-transparent border-info">
+			      <img src="https://via.placeholder.com/900x430" class="card-img-top img-fluid" alt="...">
+			      <div class="card-body">
+			        <h3 class="card-title">Capstone Project 2</h3>
+			        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      </div>
+			      <div class="card-footer border-info">
+			        <a href="#" class="navigation-links">See Project</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card bg-transparent border-info">
+			      <img src="https://via.placeholder.com/900x430" class="card-img-top img-fluid" alt="...">
+			      <div class="card-body">
+			        <h3 class="card-title">Capstone Project 3</h3>
+			        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      </div>
+			      <div class="card-footer border-info">
+			        <a href="#" class="navigation-links">See Project</a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<h2>Let's create something awesome!</h2>
+		<a href="#contact" class="btn ms-auto">Get in Touch</a>
+	</div>
 	<!-- End of Projects -->
 
 	<!-- Start of Contact -->
-	<section id="contact">
-		<div class="container-fluid">
-			
-		</div>		
-	</section>
+
 	<!-- End of Contact -->
-
-	<!-- Start of Footer -->
-	<section id="footer">
-		<div class="container-fluid">
-			
-		</div>		
-	</section>
+	<div class="container-fluid" id="contact">
+		<div class="row text-white">
+			<div class="col-12 col-md-7 col-lg-7" id="contact-form">
+				<h1>How can I help?</h1>
+				<p>Ready for your next project? Up for collaboration? Or you simply want to say hi? Flick me a message and I will get back to you shortly.</p>
+				<div class="col-12 col-md-8 col-lg-8"
+					<form class="p-3 bg-light">
+						<div class="mb-3">
+							<label for="name" class="form-label">Name</label>
+							<input type="text" class="form-control" id="name" name="name">
+						</div>
+						<div class="mb-3">
+							<label for="email" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="name@example.com">
+						</div>
+						<div class="mb-3">
+							<label for="phone" class="form-label">Contact Number</label>
+							<input type="number" class="form-control" id="phone" name="phone" placeholder="+63 900 0000 000">
+						</div>
+						<div class="mb-3">
+							<label for="concern" class="mb-2">Concern</label>
+							<select class="form-select" id="concern">
+								<option value="quotation">Quotation</option>
+								<option value="general">General Inquiry</option>
+								<option value="partnerships">Partnerships</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<label for="message" class="form-label">Message</label>
+							<textarea class="form-control" rows="5" id="message" name="message"></textarea>
+						</div>
+						<button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#myModal">Send Message</button>
+						<div class="modal text-dark" id="myModal" tabindex="-1">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Thank You!</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+									</div>
+									<div class="modal-body">
+										<p>I got your message. I will contact you soon! :)</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</form>
+					</div>
+			</div>
+			<div class="col-12 col-md-5 col-lg-5" id="map">
+				<h1>Find Me Here</h1>
+				<div class="map-responsive my-5">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.6251057390127!2d120.57101755068066!3d15.178919689384433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396edae60e7e1cf%3A0x6574c5482fddd5a5!2sOne%20West%20Aeropark%20Building!5e0!3m2!1sen!2sph!4v1642156738639!5m2!1sen!2sph" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" class="mt-3"></iframe>
+				</div>
+				<h1>Connect With Me</h1>
+				<a href="https://www.linkedin.com/in/camille-ivy-tadena-43750a135/" target="_blank">
+					<img src="./images/linkedin-icon.svg" class="icon">
+				</a>
+				<a href="https://www.facebook.com/darth.tads/" target="_blank">
+					<img src="./images/facebook-icon.svg" class="icon">					
+				</a>
+				<a href="mailto:citadena93@gmail.com" target="_blank">
+				</a>
+				<a href="https://github.com/citadena" target="_blank">
+					<img src="./images/github-icon.svg" class="icon">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+		<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+		<div class="container text-center text-white">
+			<small>Copyright &copy; Your Website 2021</small>
+		</div>
+	</footer>
 	<!-- End of Footer -->
-
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
